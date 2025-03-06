@@ -9,7 +9,7 @@ baselinecommon: spec
 					loads: #('Grease-Core');
 					repository: 'github://SeasideSt/Grease:v1.18.x/repository' ].
 		spec
-			project: 'Grease Core Tests' copyFrom: 'Grease' with: [ 
+			project: 'Grease_Core_Tests' copyFrom: 'Grease' with: [ 
 				spec loads: #('Core Tests') ] ].
 
 	spec for: #'gemstone' do: [ 
@@ -20,7 +20,7 @@ baselinecommon: spec
 					loads: #('Grease-Core');
 					repository: 'github://GsDevKit/Grease:master/repository' ].
 		spec
-			project: 'Grease Core Tests' copyFrom: 'Grease' with: [ 
+			project: 'Grease_Core_Tests' copyFrom: 'Grease' with: [ 
 				spec loads: #('Core Tests') ] ].
 
 	spec for: #'common' do: [
@@ -74,7 +74,7 @@ baselinecommon: spec
 			package: 'Seaside-Tests-Component' with: [
 				spec requires: #('Seaside-Component' 'Seaside-Tests-Core' ). ];
 			package: 'Seaside-Tests-Core' with: [
-				spec requires: #('Seaside-Core' 'Grease Core Tests' ). ];
+				spec requires: #('Seaside-Core' 'Grease_Core_Tests' ). ];
 			package: 'Seaside-Tests-Development' with: [
 				spec requires: #('Seaside-Development' 'Seaside-Tests-Tools-Web' 'Seaside-Tests-Environment' ). ];
 			package: 'Seaside-Tests-Email' with: [
