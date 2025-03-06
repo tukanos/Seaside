@@ -16,7 +16,7 @@ baselinepharo: spec
 				package: 'Seaside-Pharo-Environment' with: [ spec requires: #('Seaside-Environment' 'Seaside-Core' 'Seaside-Canvas') ];
 				package: 'Seaside-Tests-Pharo-Development' with: [ spec requires: #('Seaside-Tests-Development' 'Seaside-Pharo-Development') ];
 				package: 'Seaside-Tests-Email' with: [ spec includes: #('Seaside-Tests-Pharo-Email') ];
-				package: 'Seaside-Tests-Pharo-Email' with: [ spec requires: #('Seaside-Email' 'Seaside-Pharo-Email' 'Grease Core Tests') ];
+				package: 'Seaside-Tests-Pharo-Email' with: [ spec requires: #('Seaside-Email' 'Seaside-Pharo-Email' 'Grease_Core_Tests') ];
 				package: 'Seaside-Tests-Pharo-Functional' with: [ spec requires: #('Seaside-Tests-Functional' 'Seaside-Tests-Environment' 'Seaside-Pharo-Environment') ];
 				package: 'Seaside-Tests-Canvas' with: [ spec includes: #('Seaside-Tests-Pharo-Canvas') ];
 				package: 'Seaside-Tests-Pharo-Canvas' with: [ spec requires: #('Seaside-Tests-Canvas') ] ].
