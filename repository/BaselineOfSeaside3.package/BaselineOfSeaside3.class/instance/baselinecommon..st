@@ -40,7 +40,7 @@ baselinecommon: spec
 			package: 'Seaside-Continuation' with: [
 				spec requires: #('Grease' ). ];
 			package: 'Seaside-Development' with: [
-				spec requires: #('Comet-Tests-Core' 'Seaside-Tools-Web' 'Seaside-Flow'). ];
+				spec requires: #('Seaside-Tools-Web' 'Seaside-Flow'). ];
 			package: 'Seaside-Email' with: [
 				spec requires: #('Seaside-Core' ). ];
 			package: 'Seaside-Environment' with: [
