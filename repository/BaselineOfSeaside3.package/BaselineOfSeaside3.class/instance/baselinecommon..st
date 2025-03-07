@@ -40,7 +40,7 @@ baselinecommon: spec
 			package: 'Seaside-Continuation' with: [
 				spec requires: #('Grease' ). ];
 			package: 'Seaside-Development' with: [
-				spec requires: #('Seaside-Tools-Web' 'Seaside-Flow'). ];
+				spec requires: #('Comet-Tests-Core' 'Seaside-Tools-Web' 'Seaside-Flow'). ];
 			package: 'Seaside-Email' with: [
 				spec requires: #('Seaside-Core' ). ];
 			package: 'Seaside-Environment' with: [
@@ -74,7 +74,7 @@ baselinecommon: spec
 			package: 'Seaside-Tests-Component' with: [
 				spec requires: #('Seaside-Component' 'Seaside-Tests-Core' ). ];
 			package: 'Seaside-Tests-Core' with: [
-				spec requires: #('Seaside-Core' 'Comet-Tests-Core' 'Grease_Core_Tests' ). ];
+				spec requires: #('Seaside-Core' 'Grease_Core_Tests' ). ];
 			package: 'Seaside-Tests-Development' with: [
 				spec requires: #('Seaside-Development' 'Seaside-Tests-Tools-Web' 'Seaside-Tests-Environment' ). ];
 			package: 'Seaside-Tests-Email' with: [
