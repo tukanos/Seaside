@@ -74,7 +74,7 @@ baselinecommon: spec
 			package: 'Seaside-Tests-Component' with: [
 				spec requires: #('Seaside-Component' 'Seaside-Tests-Core' ). ];
 			package: 'Seaside-Tests-Core' with: [
-				spec requires: #('Seaside-Core' 'Grease_Core_Tests' ). ];
+				spec requires: #('Seaside-Core' 'Comet-Tests-Core' 'Grease_Core_Tests' ). ];
 			package: 'Seaside-Tests-Development' with: [
 				spec requires: #('Seaside-Development' 'Seaside-Tests-Tools-Web' 'Seaside-Tests-Environment' ). ];
 			package: 'Seaside-Tests-Email' with: [
